@@ -7,6 +7,7 @@ export default function ShoppingList({
   onUpdateShoppingItem,
   onDeleteShoppingItem,
 }) {
+  console.log('in the ShoppingList Component: ', shoppingList);
   return <div>
     <div data-testid={`shopping-list-name-${shoppingList.id}`}>
       {shoppingList.name}
