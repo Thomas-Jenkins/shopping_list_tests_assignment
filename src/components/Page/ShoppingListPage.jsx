@@ -9,6 +9,7 @@ export default function ShoppingListPage() {
     onUpdateShoppingItem,
     onDeleteShoppingItem,
   } = useShoppingLists();
+  console.log('in the ShoppingListPage component: ', shoppingLists);
   return <article>
     <ShoppingLists
       shoppingLists={shoppingLists}
